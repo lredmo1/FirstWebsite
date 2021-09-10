@@ -1,3 +1,45 @@
 body {
-    background: blue;
+    background: lightgoldenrodyellow;
   }
+
+  .largeIcon img {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 25px;
+  }
+
+.topNavBar {
+  text-align: center;
+  padding: 5px;
+}
+
+header {
+  text-align: center;
+}
+
+.largeIconBar {
+  display: flex;
+  justify-content: center;
+}
+
+.lowerNavBar {
+  text-align: center;
+}
+
+.cakeImages img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.cakeImages {
+  display: flex;
+  justify-content: center;
+}
+
+.artImages img {
+  width: 300px;
+  margin: 10px;
+}
