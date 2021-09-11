@@ -1,6 +1,18 @@
 body {
-    background: lightgoldenrodyellow;
+    background-image: url("images/v800-mynt-02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  a:link {
+    color: #729cb0;
+  }
+ 
+  a:visited {
+    color: #729cb0;
+  }
+
 
   .largeIcon img {
     height: 300px;
@@ -12,6 +24,7 @@ body {
 .topNavBar {
   text-align: center;
   padding: 5px;
+  text-decoration: none;
 }
 
 header {
@@ -28,18 +41,43 @@ header {
 }
 
 .cakeImages img {
+  width: 200px;
   height: 300px;
-  width: 300px;
-  margin: 10px;
-  border-radius: 25px;
+  margin: 40px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .cakeImages {
-  display: flex;
-  justify-content: center;
+/*  display: flex;
+  justify-content: center;*/ 
 }
 
 .artImages img {
+  width: 200px;
+  height: 300px;
+  margin: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.topOfPage {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px;
+}
+
+.thumbnail {
+  opacity: 0.85;
+}
+
+.codingImages img {
   width: 300px;
   margin: 10px;
+  border-radius: 10px;
+  opacity: 0.5;
 }
+
+.codingImages {
+display: flex;
+  justify-content: center;
