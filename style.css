@@ -36,9 +36,9 @@ header {
   justify-content: center;
 }
 
-.lowerNavBar {
+/*.lowerNavBar {
   text-align: center;
-}
+}*/
 
 .cakeImages img {
   width: 200px;
@@ -49,8 +49,7 @@ header {
 }
 
 .cakeImages {
-/*  display: flex;
-  justify-content: center;*/ 
+text-align: center; 
 }
 
 .artImages img {
@@ -61,6 +60,9 @@ header {
   object-fit: cover;
 }
 
+.artImages {
+  text-align: center; 
+  }
 
 .topOfPage {
   background-color: rgba(255, 255, 255, 0.4);
